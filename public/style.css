@@ -1,0 +1,383 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.landing {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  background: linear-gradient(-45deg, #ee1f82, #00d341, #3b45aa, #f92c13);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.my-name {
+  color: white;
+  font-size: 5em;
+  margin: 20px 0;
+  font-family: "amatic SC", sans-serif;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+.name-container {
+  text-align: center;
+  border: 1px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgba(90, 90, 90, 0.5);
+}
+
+.name-moto {
+  font-size: 3.75em;
+  font-family: "amatic SC", sans-serif;
+  color: white;
+  margin: 0;
+  font-weight: 400;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.arrow {
+  align-self: flex-end;
+  position: absolute;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.fa-arrow-circle-down {
+  font-size: 50px;
+}
+
+.arrow:hover {
+  color: black;
+}
+
+.skill-style {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.skill-text {
+  font-size: 1.5em;
+}
+
+.skills {
+  text-align: center;
+  margin: 20px 10%;
+}
+
+.skill-divs {
+  display: flex;
+  margin: 80px 10%;
+}
+
+.skill-float {
+  /* margin: 20px 4%; */
+  flex: 1;
+}
+
+/* clearfix */
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about {
+  text-align: center;
+  margin: 80px 10%;
+}
+
+.normal-text {
+  font-weight: normal;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio {
+  text-align: center;
+  margin: 80px 0;
+}
+
+.portfolio-text {
+  font-weight: normal;
+  margin-left: 26%;
+  margin-right: 26%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-button {
+  border: 2px solid forestgreen;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: all .5s;
+  overflow: auto;
+}
+
+.card-button:hover {
+  background-color: forestgreen;
+  color: white;
+}
+
+.contact {
+  text-align: center;
+  margin: 80px 0;
+}
+
+.form {
+  margin: 40px 37%;
+  text-align: left;
+}
+
+.form-labels {
+  margin: 10px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-inputs {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid darkgray;
+}
+
+.button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.submit {
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid darkgray;
+}
+
+.header-font {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.input-height {
+  height: 30px;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.textarea {
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.port-image {
+  max-width: 100%;
+  max-height: 100%;
+  flex: 1;
+  display: block;
+}
+
+.image-link {
+  margin: 0;
+  display: block;
+}
+
+
+@keyframes backgroundFade {
+  from {background-color: white;}
+  to {background-color: forestgreen;}
+}
+
+.port-top {
+  display: flex;
+  justify-content:  center;
+  margin: 80px 15% 0 15%;
+}
+
+.port-bottom {
+  justify-content: center;
+  display: flex;
+  margin: 0 15% 80px 15%;
+}
+
+.black-text {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.shift-left {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  background-color: rgb(53, 51, 51);
+  display: flex;
+  align-items: center;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-link {
+  color: white;
+  margin: 0 10px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+.footer {
+  height: 60px;
+  text-align: center;
+  background-color: #3b45aa;
+  border-top: 3px solid black;
+}
+
+.footer-image {
+  max-width: 80%;
+  max-height: 80%;
+  margin-right: 2%;
+  margin-top: 6px;
+}
+
+.teletype,
+.vehicle,
+.mealhouse,
+.vstda {
+  text-align: center;
+  color: white;
+  margin: 10px;
+  border: 1px solid rgb(53, 51, 51);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.center-text {
+  margin-bottom: 20px;
+}
+
+.below-centered {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-hidden {
+  visibility: hidden;
+}
+
+@media (max-width: 1200px) { 
+  .form {
+    margin: 40px 25%;
+    text-align: left;
+  }
+ }
+
+@media (max-width: 400px) { 
+  .normal-text {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .skill-style {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .skills {
+    margin-bottom: 0;
+  }
+
+  .skill-text {
+    font-size: 1em;
+  }
+
+  .skill-divs {
+    margin: 80px 0;
+  }
+
+  .textarea {
+    height: 240px;
+  }
+
+  .form {
+    margin: 40px 7%;
+    text-align: left;
+  }
+
+  .portfolio-text {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .port-top {
+    display: flex;
+    justify-content:  center;
+    flex-direction: column;
+  }
+  
+  .port-bottom {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+ }
