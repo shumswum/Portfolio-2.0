@@ -4,6 +4,8 @@ body {
   margin: 0;
 }
 
+/* Home CSS */
+
 .landing {
   width: 100vw;
   height: 100vh;
@@ -57,9 +59,10 @@ body {
 
 .my-name {
   color: white;
-  font-size: 5em;
+  font-size: 4rem;
   margin: 20px 0;
-  font-family: "amatic SC", sans-serif;
+  /* font-family: "amatic SC", sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   line-height: 80px;
 }
@@ -67,57 +70,158 @@ body {
 .name-container {
   text-align: center;
   border: 1px solid white;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
   background: rgba(90, 90, 90, 0.5);
 }
 
 .name-moto {
-  font-size: 3.75em;
-  font-family: "amatic SC", sans-serif;
+  font-size: 2.75rem;
+  /* font-family: "amatic SC", sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   color: white;
   margin: 0;
   font-weight: 400;
-  line-height: 60px;
-  margin-bottom: 20px;
+  line-height: 3.75rem;
+  margin-bottom: 1.25rem;
 }
 
 .arrow {
   align-self: flex-end;
   position: absolute;
   color: white;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 
 .fa-arrow-circle-down {
-  font-size: 50px;
+  font-size: 3.125rem;
 }
 
 .arrow:hover {
   color: black;
 }
 
+/* Learn Header */
+
+.more-content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-para {
+  font-family: 'Montserrat', sans-serif;
+  margin: .625rem;
+}
+
+.more-content {
+  margin-top: 3vh;
+  border: 1px solid rgb(53, 51, 51);
+  box-shadow: 0 .3125rem .3125rem gray;
+  width: 40%;
+  height: 100%;
+  margin-bottom: 3vh;
+}
+
+.more-title {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.more-image {
+  background: url("mealhouse.jpg");
+  background-size: cover;
+  height: 25vw;
+  position: relative;
+  border-bottom: 1px solid rgb(53, 51, 51);
+}
+
+/* Navbar More CSS */
+.more-nav {
+  background-color: rgb(53, 51, 51);
+  display: flex;
+  align-items: center;
+  height: 3.75rem;
+}
+
+.more-nav-link {
+  color: white;
+  margin: 0 .625rem;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.more-nav-link:hover {
+  font-weight: bold;
+}
+
+/* Navbar CSS */
+
+.navbar {
+  background-color: rgb(53, 51, 51);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.75rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-link {
+  color: white;
+  margin: 0 .625rem;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+}
+
+.center-text {
+  margin-bottom: 1.25rem;
+}
+
+.nav-hidden {
+  visibility: hidden;
+}
+
+/* About CSS */
+
+.about {
+  text-align: center;
+  margin: 5rem 10% 2.5rem 10%;
+}
+
+.origin-logo {
+  max-width: 12.5rem;
+}
+
+/* Skills CSS */
+
 .skill-style {
-  max-width: 80px;
-  max-height: 80px;
+  max-width: 5rem;
+  max-height: 5rem;
 }
 
 .skill-text {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .skills {
   text-align: center;
-  margin: 20px 10%;
+  margin: 1.25rem 10%;
 }
 
 .skill-divs {
   display: flex;
-  margin: 80px 10%;
+  margin: 2.5rem 1.25rem;
 }
 
 .skill-float {
-  /* margin: 20px 4%; */
   flex: 1;
 }
 
@@ -128,11 +232,6 @@ body {
   clear: both;
 }
 
-.about {
-  text-align: center;
-  margin: 80px 10%;
-}
-
 .normal-text {
   font-weight: normal;
   margin-left: 20%;
@@ -140,9 +239,58 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* Portfolio CSS */
+
 .portfolio {
   text-align: center;
-  margin: 80px 0;
+  margin: 5rem 0;
+}
+
+.black-text {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.shift-left {
+  text-align: left;
+  padding-bottom: .625rem;
+}
+
+.teletype,
+.vehicle,
+.mealhouse,
+.vstda {
+  text-align: center;
+  color: white;
+  margin: .625rem;
+  border: 1px solid rgb(53, 51, 51);
+  box-shadow: 0 .3125rem .3125rem gray;
+}
+
+.port-image {
+  max-width: 100%;
+  max-height: 100%;
+  flex: 1;
+  display: block;
+  margin: 0;
+  border-bottom: 1px solid rgb(53, 51, 51);
+}
+
+@keyframes backgroundFade {
+  from {background-color: white;}
+  to {background-color: forestgreen;}
+}
+
+.port-top {
+  display: flex;
+  justify-content:  center;
+  margin: 5rem 12% 0 12%;
+}
+
+.port-bottom {
+  justify-content: center;
+  display: flex;
+  margin: 0 12% 2.5rem 12%;
 }
 
 .portfolio-text {
@@ -152,12 +300,16 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.card-margin {
+  margin: .625rem;
+}
+
 .card-button {
   border: 2px solid forestgreen;
-  padding: 5px 10px;
+  padding: .3125rem .625rem;
   text-decoration: none;
   transition: all .5s;
-  overflow: auto;
+  display: inline-block;
 }
 
 .card-button:hover {
@@ -165,36 +317,38 @@ body {
   color: white;
 }
 
+/* Contact CSS */
+
 .contact {
   text-align: center;
-  margin: 80px 0;
+  margin: 5rem 0;
 }
 
 .form {
-  margin: 40px 37%;
+  margin: 2.5rem 37%;
   text-align: left;
 }
 
 .form-labels {
-  margin: 10px 0;
+  margin: .625rem 0;
   font-family: 'Montserrat', sans-serif;
 }
 
 .form-inputs {
   width: 100%;
-  border-radius: 5px;
+  border-radius: .3125rem;
   border: 1px solid darkgray;
 }
 
 .button {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   display: flex;
   justify-content: center;
 }
 
 .submit {
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: .625rem 1.25rem;
   background-color: black;
   color: white;
   border: 1px solid darkgray;
@@ -205,76 +359,20 @@ body {
 }
 
 .input-height {
-  height: 30px;
-  font-size: 22px;
+  height: 1.875rem;
+  font-size: 1.375rem;
   font-family: 'Montserrat', sans-serif;
 }
 
 .textarea {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-family: 'Montserrat', sans-serif;
 }
 
-.port-image {
-  max-width: 100%;
-  max-height: 100%;
-  flex: 1;
-  display: block;
-}
-
-.image-link {
-  margin: 0;
-  display: block;
-}
-
-
-@keyframes backgroundFade {
-  from {background-color: white;}
-  to {background-color: forestgreen;}
-}
-
-.port-top {
-  display: flex;
-  justify-content:  center;
-  margin: 80px 15% 0 15%;
-}
-
-.port-bottom {
-  justify-content: center;
-  display: flex;
-  margin: 0 15% 80px 15%;
-}
-
-.black-text {
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.shift-left {
-  text-align: left;
-  padding-bottom: 20px;
-}
-
-.navbar {
-  background-color: rgb(53, 51, 51);
-  display: flex;
-  align-items: center;
-  height: 60px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10;
-}
-
-.nav-link {
-  color: white;
-  margin: 0 10px;
-  font-family: 'Montserrat', sans-serif;
-  cursor: pointer;
-}
+/* Footer CSS */
 
 .footer {
-  height: 60px;
+  height: 3.75rem;
   text-align: center;
   background-color: #3b45aa;
   border-top: 3px solid black;
@@ -284,89 +382,62 @@ body {
   max-width: 80%;
   max-height: 80%;
   margin-right: 2%;
-  margin-top: 6px;
+  margin-top: .375rem;
 }
 
-.teletype,
-.vehicle,
-.mealhouse,
-.vstda {
-  text-align: center;
-  color: white;
-  margin: 10px;
-  border: 1px solid rgb(53, 51, 51);
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  font-size: 1.5em;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.center-text {
-  margin-bottom: 20px;
-}
-
-.below-centered {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.nav-hidden {
-  visibility: hidden;
-}
-
-@media (max-width: 1200px) { 
+@media (max-width: 75rem) and (min-width: 31.25rem) { 
   .form {
-    margin: 40px 25%;
+    margin: 2.5rem 25%;
     text-align: left;
   }
  }
 
-@media (max-width: 400px) { 
+ @media only screen and (max-width: 40rem) {
+   .my-name {
+    font-size: 2rem;
+   }
+   .landing {
+     height: 90vh;
+   }
+
+   .name-moto {
+    font-size: 1rem;
+   }
+
   .normal-text {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-
-  .skill-style {
-    max-width: 50px;
-    max-height: 50px;
-  }
-
-  .skills {
-    margin-bottom: 0;
-  }
-
-  .skill-text {
-    font-size: 1em;
-  }
-
-  .skill-divs {
-    margin: 80px 0;
-  }
-
-  .textarea {
-    height: 240px;
-  }
-
-  .form {
-    margin: 40px 7%;
-    text-align: left;
+    margin: 0 5%;
+    font-size: 1.15rem;
   }
 
   .portfolio-text {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 5%;
+    font-size: 1.15rem;
+  }
+
+  .skill-style {
+    max-width: 3.125rem;
+    max-height: 3.125rem;
+  }
+
+  .skills,
+  .about {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .skill-text {
+    font-size: .8rem;
+  }
+
+
+  .textarea {
+    height: 15rem;
+  }
+
+  .form {
+    margin: 2.5rem 7%;
+    text-align: left;
   }
 
   .port-top {
@@ -379,5 +450,9 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
+  }
+
+  .portfolio {
+    margin-top: 1.25rem;
   }
  }
