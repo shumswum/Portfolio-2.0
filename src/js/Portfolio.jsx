@@ -23,7 +23,7 @@ export default function Portfolio(props) {
                 Allows students to collaborate using Windows Monaco text editor.
               </p>
               <div>
-                <Link className="card-button black-text card-margin" to="/more">Learn More</Link>
+                <Link className="card-button black-text card-margin" to="/more/0">Learn More</Link>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function Portfolio(props) {
                 Grubhub clone used by searching for near by restaurants.
               </p>
               <div>
-              <Link className="card-button black-text card-margin" to="/more">Learn More</Link>
+              <Link className="card-button black-text card-margin" to="/more/1">Learn More</Link>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function Portfolio(props) {
                 Inventory app for a dealership.
               </p>
               <div>
-              <Link className="card-button black-text card-margin" to="/more">Learn More</Link>
+              <Link className="card-button black-text card-margin" to="/more/2">Learn More</Link>
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@ export default function Portfolio(props) {
                 Todo app for keeping track of todos.
               </p>
               <div>
-              <Link className="card-button black-text card-margin" to="/more">Learn More</Link>
+              <Link className="card-button black-text card-margin" to="/more/3">Learn More</Link>
               </div>
             </div>
           </div>

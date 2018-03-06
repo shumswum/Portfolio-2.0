@@ -12,7 +12,7 @@ export default class MyRouter extends React.Component {
       <Router className="main-router">
         <div>
           <Route exact path='/' component={ App } />
-          <Route path='/more' component={ LearnMore }/>
+          <Route path='/more/:id' component={ LearnMore }/>
         </div>
       </Router>
     );
