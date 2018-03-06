@@ -16,7 +16,6 @@ export default class LearnMore extends React.Component {
   }
 
   componentWillMount() {
-    console.log(this.props);
     let index = this.props.match.params.id;
     this.setState({
       tech: data[index].tech,
