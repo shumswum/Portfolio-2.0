@@ -128,8 +128,23 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.more-image {
+.more-mealhouse {
   background: url("mealhouse.jpg");
+}
+
+.more-teletype {
+  background: url("teletype.png");
+}
+
+.more-vehicle {
+  background: url("vehicle.png");
+}
+
+.more-vstda {
+  background: url("vstda.png");
+}
+
+.more-image {
   background-size: cover;
   height: 25vw;
   position: relative;

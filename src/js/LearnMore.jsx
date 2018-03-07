@@ -11,7 +11,9 @@ export default class LearnMore extends React.Component {
       tech: "",
       job: "",
       demo: "",
-      desc: ""
+      desc: "",
+      name: "",
+      imageClass: ""
     };
   }
 
@@ -21,7 +23,9 @@ export default class LearnMore extends React.Component {
       tech: data[index].tech,
       job: data[index].job,
       demo: data[index].demo,
-      desc: data[index].desc
+      desc: data[index].desc,
+      name: data[index].name,
+      imageClass: data[index].imageClass
     });
   }
 
@@ -33,11 +37,11 @@ export default class LearnMore extends React.Component {
             Home
           </Link>
         </nav>
-        <h1 className="more-title">Origin Teletype</h1>
+        <h1 className="more-title">{this.state.name}</h1>
         <div className="more-content-center">
           <div className="more-content">
             <div className="more-flex">
-              <div className="more-image more-flex" />
+              <div className={`more-image more-flex ${this.state.imageClass}`} />
               <div className="more-para">
                 <p className="more-text">
                   <strong>Description:</strong>
