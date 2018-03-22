@@ -5,13 +5,8 @@ import { Link } from 'react-router-dom';
 export default function Portfolio(props) {
   return (
     <Element name="portfolio">
-      <div className="portfolio">
+      <div id="portfolio" className="portfolio">
         <h1 className="header-font">Portfolio</h1>
-        <h2 className="portfolio-text">
-          I have built many full stack applications that prove my skill set as a
-          front end developer. I enjoy working on personal projects exploring
-          new technologies and learning new tricks.
-        </h2>
         <div className="port-top">
           <div className="teletype">
             <img className="port-image" src="teletype.png" alt="vstda" />
@@ -34,7 +29,7 @@ export default function Portfolio(props) {
                 <strong>Mealhouse:</strong>
               </p>
               <p className="black-text card-margin">
-                Grubhub clone used by searching for near by restaurants.
+                Grubhub clone, to search for nearby restaurant.
               </p>
               <div>
               <Link className="card-button black-text card-margin" to="/more/1">Learn More</Link>
@@ -50,7 +45,7 @@ export default function Portfolio(props) {
                 <strong>Vehicle Manager:</strong>
               </p>
               <p className="black-text card-margin">
-                Inventory app for a dealership.
+                Inventory app for managing customers and vehicles.
               </p>
               <div>
               <Link className="card-button black-text card-margin" to="/more/2">Learn More</Link>
@@ -64,7 +59,7 @@ export default function Portfolio(props) {
                 <strong>Very Simple Todo List:</strong>
               </p>
               <p className="black-text card-margin">
-                Todo app for keeping track of todos.
+                Todo app for keeping track of tasks.
               </p>
               <div>
               <Link className="card-button black-text card-margin" to="/more/3">Learn More</Link>

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
     "build": "webpack -w"
   },
   "dependencies": {
@@ -22,6 +23,7 @@
     "react-on-screen": "^2.0.3",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
+    "react-router-scroll-memory": "^1.0.1",
     "react-scroll": "^1.7.7",
     "webpack": "^3.6.0"
   },

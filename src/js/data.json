@@ -2,33 +2,33 @@
     {
         "name":"Origin Teletype",
         "imageClass": "more-teletype",
-        "desc": "Teletype tool built as a prototype for Origin Code Academy. Origin Teletype is a real-time text editor built within the browser using Window's Monaco text editor",
-        "job": "Helped team write the ERD for our database and built out mongoDB database using loopback. Working with 3 other team members I built out much of the redux architechture. I setup the text editor to send messages through websockets. I then took these messages and sent them through shareDB to handle all conflict resolution.",
-        "tech": "React JS, redux, node.js, express, loopback, shareDB, MongoDB, and Websockets",
+        "desc": "Teletype tool is a web based prototype built for Origin Code Academy. Origin Teletype is a real-time coding editor using Window's Monaco text editor",
+        "job": "Designed ERD and developed mongoDB database using loopback, built Redux architecture, configured text editor to send messages through Websockets and used shareDB to handle all conflict resolutions.",
+        "tech": "ReactJS, redux, Node.js, express, loopback, shareDB, webpack, MongoDB, and Websockets",
         "demo": "https://oca-teletype.herokuapp.com/"
     },
     {
         "name":"Mealhouse",
         "imageClass": "more-mealhouse",
-        "desc": "GrubHub clone built for finding restaurants near a given location. Customers can sign up and pick restaurants to order food or beverages. Restaurant owners can sign up and add menus which will then insert them on our restaurant list.",
-        "job": "I built the sign in/sign out functionality using a custom cookie to check for before AJAX calls were granted access to our database. I wired up my three other team members components with redux.",
-        "tech": "React JS, redux, react-router, node.js, express, loopback, stripe",
+        "desc": "GrubHub clone for finding restaurants near a given location. Customers can sign up and pick restaurants to order food or beverages. Restaurant owners can sign up to create and manage customized menu items.",
+        "job": "Architected and built authentication using a custom cookie, converted project components to utilize Redux state management.",
+        "tech": "ReactJS, webpack, redux, react-router, Node.js, express, loopback, stripe",
         "demo": "https://mealhouse.herokuapp.com/"
     },
     {
         "name":"Vehicle Manager",
         "imageClass": "more-vehicle",
-        "desc": "Personal project built as an application to be used for keeping inventory of some product(In this case it's cars). I built a MySQL backend using an ORM called Sequelize and node.js with express. You can save cars a customers into the database and use this information to make sales with their relationship.",
+        "desc": "Inventory application to track customers, products, and sales using MySQL and ORM called Sequelize.",
         "job": "Solo job!",
-        "tech": "React JS, redux, react-router, node.js, express, MySQL, Sequelize",
+        "tech": "ReactJS, webpack, redux, react-router, Node.js, express, MySQL, Sequelize",
         "demo": "https://crs-vehicle-manager.herokuapp.com/"
     },
     {
         "name":"Very Simple Todo App",
         "imageClass": "more-vstda",
-        "desc": "Personal project built as a todo list for tracking tasks. I used node, express, and webpack to build the vanilla React application.",
+        "desc": "Very simple todo application for tracking tasks using Node.js, Express, Webpack, and ReactJS.",
         "job": "Solo job!",
-        "tech": "React JS, node.js, express",
+        "tech": "ReactJS, webpack, Node.js, express",
         "demo": "https://crs-startnow-react100-vstda.herokuapp.com/"
     }
 ]

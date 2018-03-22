@@ -8,7 +8,7 @@ export default function Skills(props) {
         <h1 className="header-font">Skills</h1>
         <h2 className="normal-text">
           I keep up to date with the latest technologies so I can build faster,
-          more reliable and forward-thinking applications for companies like
+          more reliable, and forward-thinking applications for companies like
           yours.
         </h2>
         <div className="skill-divs skill-float">

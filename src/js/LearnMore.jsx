@@ -34,7 +34,7 @@ export default class LearnMore extends React.Component {
       <div>
         <nav className="more-nav">
           <Link className="more-nav-link" to="/">
-            Home
+            CS Portfolio
           </Link>
         </nav>
         <h1 className="more-title">{this.state.name}</h1>
@@ -52,12 +52,13 @@ export default class LearnMore extends React.Component {
                 </p>
                 <p className="more-text">{this.state.tech}</p>
                 <p className="more-text">
-                  <strong>My Job:</strong>
+                  <strong>My Contribution:</strong>
                 </p>
                 <p className="more-text">{this.state.job}</p>
                 <a
                   className="card-button black-text card-margin more-image-link"
                   href={this.state.demo}
+                  target="_blank"
                 >
                   Demo
                 </a>
